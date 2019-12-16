@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flex Muscles</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="search products"
+          />
+          <button class="search__btn">
+            <i class="fas fa-search search__icon"></i>
+          </button>
+        </form>
+
+        <nav class="user">
+          <div class="user__icon-box">
+            <i class="far fa-bell  user__icon"></i>
+            <span class="user__notification">2</span>
+          </div>
+
+          <div class="user__icon-box">
+            <i class="far fa-comment  user__icon "></i>
+            <span class="user__notification">10</span>
+          </div>
+
+          <div class="user__user-detail">
+            <img
+              src="https://i.ytimg.com/vi/CyzxkfKUktU/maxresdefault.jpg"
+              alt="user photo"
+              class="user__user-photo"
+            />
+            <span class="user__user-name">Arnold</span>
+          </div>
+        </nav>
+      </header>
+
+      <!-- //side bar -->
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <span class="side-nav__text">
+                  Home
+                </span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <span class="side-nav__text">
+                  CrossFit
+                </span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <span class="side-nav__text">
+                  Weight Training
+                </span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <span class="side-nav__text">
+                  Aerobics
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="copywrite">
+            &copy; @ReactNinja, built with
+            <i class="far fa-heart copywrite__heart-icon"></i>
+          </div>
+        </nav>
+        <main class="main-section">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="https://cdn.pixabay.com/photo/2014/09/28/19/49/fitness-465203_960_720.jpg"
+                alt="image 1"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="
+                https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_960_720.jpg"
+                alt="image 2"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/04/05/17/21/kettlebell-3293475_960_720.jpg"
+                alt="image 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Flex Muscles</h1>
+            <div class="overview__stars">
+              <i class="fas fa-star overview__rating-icon"></i>
+              <i class="fas fa-star overview__rating-icon"></i>
+              <i class="fas fa-star overview__rating-icon"></i>
+              <i class="fas fa-star overview__rating-icon"></i>
+              <i class="fas fa-star overview__rating-icon"></i>
+            </div>
+
+            <div class="overview__location">
+              <i class="fas fa-map-marker-alt overview__location-icon "></i>
+              <button class="btn-inline">Mumbai</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-votes">
+                800 votes
+              </div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="detail__description">
+              <p class="paragraph">
+                World-class certified personal trainers, energetic class
+                instructors, and innovative fitness programs – we have the
+                coaching, programs, and experience you need to help you achieve
+                your fitness goals.
+              </p>
+              <p class="paragraph">
+                Be healthy, happy, & fit with us! We've got classes all day
+                every day designed to energize, inspire, & get you results. The
+                only gym membership you'll need & workouts you'll look forward
+                to.Check below plans.
+              </p>
+
+              <ul class="list">
+                <li class="list__item">Open 24 / 7</li>
+                <li class="list__item">World class trainers</li>
+                <li class="list__item">Calesthenics</li>
+                <li class="list__item">Get customized diet</li>
+                <li class="list__item">Fully Equipped</li>
+                <li class="list__item">Zumba included</li>
+                <li class="list__item">Airconditioned</li>
+                <li class="list__item">Free Diet Plan</li>
+              </ul>
+            </div>
+
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  "Lost my 20 pounds within a month. I am glad it worked out."
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="https://www.biography.com/.image/t_share/MTE5NDg0MDU0OTM2NTg1NzQz/tom-cruise-9262645-1-402.jpg"
+                    alt="user 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">TOM CRUISE</p>
+                    <p class="review__user-date">
+                      Dec 10th, 2019
+                    </p>
+                  </div>
+                  <div class="review__rating">9.2</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  "Top class Coaching. Hats off to FlexMuscle."
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="https://i.pinimg.com/736x/3f/a7/e5/3fa7e5cffc68bfbae192686aa176d487.jpg"
+                    alt="user 2"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">JEFF SIED</p>
+                    <p class="review__user-date">
+                      Dec 1st, 2019
+                    </p>
+                  </div>
+                  <div class="review__rating">8.2</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Hurry up Offer valid till 1st Jan 2020
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">
+                Book Now
+              </span>
+              <span class="btn__invisible">
+                Last 5 days left!
+              </span>
+            </button>
+
+          </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
